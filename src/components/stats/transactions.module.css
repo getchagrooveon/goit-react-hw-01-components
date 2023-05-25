@@ -1,0 +1,23 @@
+.statistics {
+    text-align: center;
+
+}
+.transactionHistory {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid gray;
+}
+
+th {
+    width: 190px;
+    padding: 0;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+thead {
+    background-color: aqua;
+}

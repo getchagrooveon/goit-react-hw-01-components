@@ -1,0 +1,39 @@
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+    border: 3px double black;
+}
+.profile {
+    background-color: white;
+    padding: 70px;
+}
+.description {
+    margin: auto auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 26px;
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.name,
+.tag,
+.location {
+    margin-top: 15px;
+    padding: 0;
+}

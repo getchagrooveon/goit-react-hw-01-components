@@ -1,0 +1,21 @@
+.status {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.item {
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    width: 150px;
+    border: 6px dashed violet;
+}
+.name {
+    font-size: 30px;
+    text-align: left;
+    text-align: center;
+    margin: 5px 0px;
+}

@@ -1,4 +1,31 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize /* bring in normalize.css styles */
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
 
 body {
   margin: 0;
@@ -12,4 +39,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body {
+  background-color: aliceblue;
+  list-style: none;
 }

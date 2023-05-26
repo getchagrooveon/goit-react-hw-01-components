@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import styles from "./data.module.css"
 export const UserStats = ({ data, title}) => {
     return (<section className={styles.statistics}>
-        <h2 className={styles.title} style={{ display: title ? "block" : "none" }} >{title}</h2>
+        {title && <h2 className={styles.title} >{title}</h2>}
         <ul className={styles.statlist}>
             {data.map((element) => {
                 return <li key={element.id} className={styles.item} style={{ backgroundColor: randomColor()}}>
@@ -20,7 +20,6 @@ function randomColor() {
 
 
 UserStats.propTypes = {
-  id: PropTypes.number,
-  label: PropTypes.string,
-    percentage: PropTypes.number,
+  data: PropTypes.arrayOf(PropTypes.object),
+  title: PropTypes.string,
 };
